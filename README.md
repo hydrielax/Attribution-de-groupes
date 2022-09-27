@@ -9,8 +9,18 @@ according to their preferences.
     The first row must be the name of the project, the second one indicates
     the number of people wanted for this project/group.
 * Export the spreadsheet as a csv file, and name it `input.csv`
-* Install the `scipy` dependency: `pip3 install scipy`
-* Run the algorithm: `python3 algo.py > results.py
+* Install the `scipy` dependency:
+    ```bash
+    pip3 install scipy
+    ```
+    or
+    ```bash
+    conda install scipy
+    ```
+* Run the algorithm:
+    ```bash
+    python3 algo.py > results.py
+    ```
 * The results are exported into the `results.txt` file.
 
 ## How does the algorithm work?
