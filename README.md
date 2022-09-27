@@ -19,7 +19,7 @@ according to their preferences.
     ```
 * Run the algorithm:
     ```bash
-    python3 algo.py > results.py
+    python3 algo.py > results.txt
     ```
 * The results are exported into the `results.txt` file.
 
